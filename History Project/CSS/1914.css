@@ -95,7 +95,7 @@ li.dropdown {
     display: block;
 }
 
-ul {
+li {
     top: 700px;
     list-style: square outside none;
 }
