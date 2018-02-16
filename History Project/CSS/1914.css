@@ -94,3 +94,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.shoppinglist {
+    list-style: square outside none;
+}
