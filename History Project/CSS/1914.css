@@ -94,7 +94,3 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-shoppinglist {
-    top: 5000px;
-}
