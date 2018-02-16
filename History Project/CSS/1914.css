@@ -51,7 +51,7 @@ h1 {
     background-color: #333;
 }
 
-li {
+li.navbarli {
     float: left;
 }
 
@@ -69,6 +69,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 li.dropdown {
     display: inline-block;
+    float: left;
 }
 
 .dropdown-content {
