@@ -95,7 +95,6 @@ li.dropdown {
     display: block;
 }
 
-ul {
-    margin-top: 700px;
-    list-style: square outside none;
+shoppinglist {
+    top: 700px;
 }
