@@ -97,4 +97,5 @@ li.dropdown {
 
 .shoppinglist {
     list-style: square outside none;
+    display: inline-block;
 }
