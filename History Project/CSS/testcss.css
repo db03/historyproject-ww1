@@ -102,6 +102,6 @@ li.dropdown {
     display: block;
 }
 
-.nav a {
-    color: black;
+.nav li a {
+    color:#000;
 }
