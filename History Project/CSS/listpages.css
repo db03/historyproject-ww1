@@ -106,6 +106,7 @@ body {
     width:150px;
     margin:10px auto;
     border:1px solid #000;
+    float: left;
 }
 h2,p{margin:.5em 1em}
 /*=== Begin Nav Styles ===*/
@@ -116,6 +117,7 @@ h2,p{margin:.5em 1em}
     text-align:center;/*center the list items*/
     list-style:none;
     border-bottom:1px solid #000;
+    float: left;
 }    
 #nav li {
     display: -moz-inline-box;/* for FF2 (inline-box must be used for shrink wrapping)*/
