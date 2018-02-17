@@ -133,7 +133,8 @@ h2,p{margin:.5em 1em}
     font-weight:bold;
 }
 #nav li a:hover {
-    background:#FFF;;
+    background:#FFF;
+    color:#000;
 }
 #nav li a img {
     border:none;
