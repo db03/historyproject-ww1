@@ -101,7 +101,3 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-#nav {
-  text-color: black;
-}
