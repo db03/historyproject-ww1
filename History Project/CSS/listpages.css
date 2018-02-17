@@ -133,10 +133,12 @@ h2,p{margin:.5em 1em}
     font-weight:bold;
     background:#FFF;
     color:#000;
+    display: inline-block;
 }
 #nav li a img {
     border:none;
     margin:10px 0 0;
+    display: inline-block;
 }
 
 .disclaimer {
