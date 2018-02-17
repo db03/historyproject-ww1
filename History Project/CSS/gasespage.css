@@ -97,7 +97,3 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-.gastitle {
-    top: 140px;
-}
