@@ -144,3 +144,7 @@ h2,p{margin:.5em 1em}
 .disclaimer {
     text-align: center;
 }
+
+img {
+    display: inline-block;
+}
