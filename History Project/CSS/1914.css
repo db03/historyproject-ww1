@@ -131,7 +131,8 @@ h2,p{margin:.5em 1em}
     padding:5px 10px;
     text-decoration:none;
     font-weight:bold;
-    font-color:black;
+    background:#FFF;
+    color:#000;
 }
 #nav li a:hover {
     background:#FFF;
