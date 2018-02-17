@@ -1,5 +1,13 @@
 * {
-    font-family: "comic sans ms", "comic sans", verdana;
+  font-family: "comic sans ms", "comic sans", verdana;
+}
+
+li {
+  display: inline-block;
+}
+
+img {
+  display: inline-block;
 }
 
 .navbar .search-container {
@@ -51,7 +59,7 @@ h1 {
     background-color: #333;
 }
 
-li.navbarli {
+li {
     float: left;
 }
 
@@ -69,7 +77,6 @@ li a:hover, .dropdown:hover .dropbtn {
 
 li.dropdown {
     display: inline-block;
-    float: left;
 }
 
 .dropdown-content {
@@ -94,57 +101,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-li {
-    display: inline-block;
-}
-
-body {
-    font-size:100%;
-}
-#wrap {
-    width:150px;
-    margin:10px auto;
-    border:1px solid #000;
-    float: left;
-}
-h2,p{margin:.5em 1em}
-/*=== Begin Nav Styles ===*/
-#nav { 
-    width:150px;
-    margin:0;
-    padding:10px 0;
-    text-align:center;/*center the list items*/
-    list-style:none;
-    border-bottom:1px solid #000;
-    float: left;
-}    
-#nav li {
-    display: -moz-inline-box;/* for FF2 (inline-box must be used for shrink wrapping)*/
-    display:inline-block;/* for modern browsers */
-}
-* html #nav li {display:inline;}/* inline-block trigger for IE6 */
-*+html #nav li {display:inline;}/* inline-block trigger for IE7 */
-
-#nav li a {
-    display:inline-block;/*IE6/7 need this (haslayout)*/
-    padding:10px 10px;
-    text-decoration:none;
-    font-weight:bold;
-    background:#FFF;
-    color:#000;
-    display: inline-block;
-}
-#nav li a img {
-    border:none;
-    margin:10px 0 0;
-    display: inline-block;
-}
-
-.disclaimer {
-    text-align: center;
-}
-
-img {
-    display: inline-block;
+    
+.nav li a {
+    color: #000;
 }
