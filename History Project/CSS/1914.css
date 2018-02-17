@@ -103,7 +103,7 @@ body {
     font-size:100%;
 }
 #wrap {
-    width:250px;
+    width:100px;
     margin:10px auto;
     border:1px solid #000;
     float: left;
@@ -111,7 +111,7 @@ body {
 h2,p{margin:.5em 1em}
 /*=== Begin Nav Styles ===*/
 #nav { 
-    width:250px;
+    width:100px;
     margin:0;
     padding:5px 0;
     text-align:center;/*center the list items*/
@@ -131,6 +131,7 @@ h2,p{margin:.5em 1em}
     padding:5px 10px;
     text-decoration:none;
     font-weight:bold;
+    color:#FFF
 }
 #nav li a:hover {
     background:#FFF;
