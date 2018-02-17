@@ -98,3 +98,47 @@ li.dropdown {
 li {
     display: inline-block;
 }
+
+body {
+    background:#BBB;
+    font-size:100%;
+}
+#wrap {
+    width:900px;
+    margin:10px auto;
+    background:#EEF;
+    border:1px solid #000;
+}
+h2,p{margin:.5em 1em}
+/*=== Begin Nav Styles ===*/
+#nav { 
+    width:900px;
+    margin:0;
+    padding:5px 0;
+    text-align:center;/*center the list items*/
+    list-style:none;
+    background:#0092F5;
+    border-bottom:1px solid #000;
+}    
+#nav li {
+    display: -moz-inline-box;/* for FF2 (inline-box must be used for shrink wrapping)*/
+    display:inline-block;/* for modern browsers */
+}
+* html #nav li {display:inline;}/* inline-block trigger for IE6 */
+*+html #nav li {display:inline;}/* inline-block trigger for IE7 */
+
+#nav li a {
+    display:inline-block;/*IE6/7 need this (haslayout)*/
+    padding:5px 10px;
+    text-decoration:none;
+    color:#FFF;
+    font-weight:bold;
+}
+#nav li a:hover {
+    background:#FFF;
+    color:#000;
+}
+#nav li a img {
+    border:none;
+    margin:10px 0 0;
+}
