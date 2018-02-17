@@ -118,3 +118,7 @@ li.dropdown {
 @keyframes blinker {  
   50% { opacity: 0; }
 }
+
+.disclaimer {
+  text-align: center;
+}
