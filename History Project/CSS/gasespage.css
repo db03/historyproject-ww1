@@ -97,3 +97,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.gastitle {
+    text-color: black;
+}
