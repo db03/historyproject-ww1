@@ -95,7 +95,6 @@ li.dropdown {
     display: block;
 }
 
-.shoppinglist {
-    list-style: square outside none;
+li {
     display: inline-block;
 }
