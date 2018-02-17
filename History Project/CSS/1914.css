@@ -100,13 +100,11 @@ li {
 }
 
 body {
-    background:#BBB;
     font-size:100%;
 }
 #wrap {
     width:250px;
     margin:10px auto;
-    background:#EEF;
     border:1px solid #000;
     float: left;
 }
@@ -132,7 +130,6 @@ h2,p{margin:.5em 1em}
     display:inline-block;/*IE6/7 need this (haslayout)*/
     padding:5px 10px;
     text-decoration:none;
-    color:#FFF;
     font-weight:bold;
 }
 #nav li a:hover {
