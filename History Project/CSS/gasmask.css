@@ -93,3 +93,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.pagetitle {
+    text-color: black;
+}
