@@ -107,7 +107,7 @@ li.dropdown {
     text-align: center;
 }
 
-.sourceslist {
+.sourceslist li a {
     color: black;
 }
     
